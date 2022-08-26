@@ -2,8 +2,9 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: Normal,Light,-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  min-height: 100vh;  
 }
 
 a {
@@ -14,13 +15,84 @@ a {
 * {
   box-sizing: border-box;
 }
+@font-face {
+  font-family: "Normal";
+  src: url("/assets/fonts/Normal.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Light";
+  src: url("/assets/fonts/Light.ttf");
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+}
+/*-------Media Query--------*/
+@media only screen and (max-width: 567px) {
+  
+}
+/*-------End Media Query--------*/
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column; 
+  justify-content: flex-start;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.colorful-card-index {
+  width: 30px;
+  height: 30px;
+  background-color: rgba(255,255,255,0.1)
+}
+
+/* drawer */
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 250px; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  margin-right: 0px;
+  z-index: 10000; /* Stay on top */
+  top: 0; /* Stay at the top */
+  right: 0;
+  background-color: #fff; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 0px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  
+}
+
+
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+.custom-file-input ~ .custom-file-label::after {
+  content: "upload";
 }

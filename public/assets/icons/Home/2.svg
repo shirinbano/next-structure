@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="37.247" height="46.915" viewBox="0 0 37.247 46.915">
+  <g id="Group_2279" data-name="Group 2279" transform="translate(-168.5 -192.05)">
+    <g id="Group_2276" data-name="Group 2276" transform="translate(176.744 200.293)">
+      <path id="Path_40" data-name="Path 40" d="M261.555,28.9l-5.929-5.929v5.238a.691.691,0,0,0,.691.691Z" transform="translate(-233.528 -21.991)" fill="#3f63ab"/>
+      <path id="Path_41" data-name="Path 41" d="M29,19.958H22.788a2.072,2.072,0,0,1-2.072-2.072V11.671H2.072A2.072,2.072,0,0,0,0,13.743V48.27a2.072,2.072,0,0,0,2.072,2.072h24.86A2.072,2.072,0,0,0,29,48.27ZM24.169,35.15H18.645V33.769h5.524Zm-1.381,2.762v1.381H18.645V37.912Zm1.381-8.287v1.381H11.739V29.625Zm-6.906,4.143V35.15H14.5V33.769ZM7.77,16.929a3.555,3.555,0,1,1-3.555,3.555A3.555,3.555,0,0,1,7.77,16.929Zm2.589,12.7v1.381H8.977V29.625Zm-5.524,0H7.6v1.381H4.834Zm0,4.143h8.287V35.15H4.834Zm5.524,5.524H4.834V37.912h5.524Zm1.381-1.381h5.524v1.381H11.739Z" transform="translate(0 -11.671)" fill="#3f63ab"/>
+    </g>
+    <path id="Subtraction_1" data-name="Subtraction 1" d="M4.353,38.671H2.072A2.074,2.074,0,0,1,0,36.6V2.072A2.074,2.074,0,0,1,2.072,0H20.716V2.856H4.42a2,2,0,0,0-2,2V36.671a1.991,1.991,0,0,0,1.933,2ZM23.977,2.856H22.1V.976l1.877,1.877Z" transform="translate(172.872 196.421)" fill="#3f63ab" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Subtraction_2" data-name="Subtraction 2" d="M4.353,38.671H2.072A2.074,2.074,0,0,1,0,36.6V2.072A2.074,2.074,0,0,1,2.072,0H20.716V2.856H4.42a2,2,0,0,0-2,2V36.671a1.991,1.991,0,0,0,1.933,2ZM23.977,2.856H22.1V.976l1.877,1.877Z" transform="translate(169 192.55)" fill="#3f63ab" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1"/>
+  </g>
+</svg>

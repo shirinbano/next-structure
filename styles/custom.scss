@@ -1,0 +1,77 @@
+// Your variable overrides
+$body-bg: #fff;
+$body-color: #111;
+$font-size-base : 0.8rem;
+$input-placeholder-color:#adb5bd;
+// $input-border-radius : 0.5rem;
+$border-radius : 0.5rem;
+$blue:    #003195;
+$green: #019934;
+$red : #dc3545;
+$line-height-base:2 !default;
+$form-label-margin-bottom:              .2rem;
+// $form-label-font-size:                  .4rem;
+// $form-label-font-style:                 null;
+// $form-label-font-weight:                null;
+$form-label-color:      #B4B4B4;
+
+$theme-colors: (
+  "primary":    $blue,
+  "success":    $green,
+  "danger":    $red,
+  "gray":#ddd,
+  "white":#fff
+
+);
+
+$position-values: (
+  0: 0,
+  3:3%,
+  5:5%,
+  10:10%,
+  30:30%,
+  33:33%,
+  37: 37.5%,
+  40:40%,
+  45:45%,
+  50: 50%,
+  90:90%,
+  95:95%,
+  100: 100%
+);
+
+$font-sizes: (
+  // 6: $h6-font-size
+  7:$font-size-base * 0.9,
+  8:$font-size-base * 0.8,
+);
+
+$utilities:(
+"width": (
+      property: width,
+      class: w,
+      values: (
+        25: 25%,
+        30:30%,
+        50: 50%,
+        75: 75%,
+        95:95%,
+        98:98%,
+        100: 100%,
+        auto: auto
+      )
+    ),
+    "rounded": (
+      property: border-radius,
+      class: rounded,
+      values: (
+        0: 0,
+        card:10px,
+        5:5%,
+        //...other default bootstrap values,
+      )
+    )
+);
+
+// Bootstrap and its default variables
+@import "node_modules/bootstrap/scss/bootstrap";
